@@ -1,0 +1,7 @@
+<h2>{{ getTitle() }}</h2>
+<p>The number of authors is {{ authors.length }}</p>
+<ul>
+    <li *ngFor="let author of authors">
+        {{ author }}
+    </li>
+</ul>
